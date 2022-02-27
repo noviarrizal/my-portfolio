@@ -6,11 +6,11 @@ import schemaTypes from "all:part:@sanity/base/schema-type";
 import works from "./works";
 import testimonials from "./testimonials";
 import brands from "./brands";
-import about from "./about";
-import contact from "./contact";
+import abouts from "./abouts";
 import experiences from "./experiences";
 import skills from "./skills";
 import workExperience from "./workExperience";
+import contact from "./contact";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -22,10 +22,11 @@ export default createSchema({
     works,
     testimonials,
     brands,
-    about,
-    contact,
-    experiences,
+    abouts,
     skills,
     workExperience,
+    experiences,
+    contact,
+    /* Your types here! */
   ]),
 });
